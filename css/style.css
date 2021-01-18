@@ -542,6 +542,7 @@ address {
   background-color: var(--primary-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
@@ -763,6 +764,8 @@ address {
 }
 .modal-form-input {
   position: relative;
+}
+.modal-input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border var(--time);
@@ -895,6 +898,7 @@ address {
   background-color: var(--primary-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   cursor: pointer;
   transition: background-color var(--time);
 }
